@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>CSS - Kampabits</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="revealjs/css/reveal.min.css">
+		<link rel="stylesheet" href="revealjs/css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="revealjs/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<link rel="stylesheet" href="style.css">
+
+		<!--[if lt IE 9]>
+		<script src="revealjs/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+					<h1>CSS</h1>
+					<img src="images/logo.jpg">
+					<h3>KampaBits - 2013</h3>
+					<p>
+						<small>Tobias Sauerwein<br><a href="http://twitter.com/tsauerwein">@tsauerwein</a></small>
+					</p>
+				</section>
+
+<!-- Introduction -->
+
+				<section>
+					<h2>Before we start</h2>
+					<p>Tutorials and links</p>
+					<ul>
+						<li><a href="http://htmldog.com/guides/html/" target="_blank">
+							HTML Dog: HTML Tutorial</a></li>
+						<li><a href="http://htmldog.com/guides/css/" target="_blank">
+							HTML Dog: CSS Tutorial</a></li>
+						<li><a href="http://learn.shayhowe.com/" target="_blank">
+							A practical guide to HTML & CSS</a></li>
+						<li>Mozilla Developer Network: <a href="https://developer.mozilla.org/en-US/learn/html" target="_blank">Learn HTML</a> and 
+							<a href="https://developer.mozilla.org/en-US/learn/css" target="_blank">Learn CSS</a></li>
+						<li>Mozilla Developer Network: Developer Guide for <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML" target="_blank">HTML</a> and 
+							<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS" target="_blank">CSS</a></li>
+						<li><a href="http://www.codecademy.com/tracks/web" target="_blank">
+							Codecademy: Interactive online HTML and CSS course</a></li>
+						<li>Codecademy: Glossary for <a href="http://www.codecademy.com/glossary/html" target="_blank">HTML</a> and 
+						<a href="http://www.codecademy.com/glossary/css" target="_blank">CSS</a></li>
+					</ul>
+				</section>
+
+				
+				<section>
+					<h2>Introducing CSS</h2>
+
+					<p>Only with HTML everything is black&white and looks dull...</p>
+
+					<img src="images/html-bw.PNG">
+				</section>
+
+
+				<section>
+					<h2>Introducing CSS</h2>
+
+					<p>CSS takes care of the visual formatting</p>
+
+					<img src="images/css.PNG">
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="revealjs/lib/js/head.min.js"></script>
+		<script src="revealjs/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() {
+						hljs.tabReplace = '    ';
+						hljs.initHighlightingOnLoad(); } },
+					{ src: 'revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
