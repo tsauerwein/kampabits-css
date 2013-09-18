@@ -85,6 +85,176 @@
 				</section>
 
 
+				<section>
+					<h2>color</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;color: green;&quot;&gt;This is green!&lt;/p&gt;
+
+&lt;p style=&quot;color: red;&quot;&gt;This is red!&lt;/p&gt;
+
+&lt;p style=&quot;color: orange;&quot;&gt;And this is orange!&lt;/p&gt;
+					</code></pre>
+					<p><a href="../examples/001-color.html" target="_blank">001-color.html</a></p>
+
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<p>The <code>style="..."</code> property allows to define <strong>CSS styles</strong> on
+							individual HTML elements.</p>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>font-size</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;font-size: 72px;&quot;&gt;This is big!&lt;/p&gt;
+		
+&lt;p style=&quot;font-size: 8px; &quot;&gt;This is small!&lt;/p&gt;
+
+&lt;p style=&quot;color: green; font-size: 72px;&quot;&gt;And this is green and big!&lt;/p&gt;
+					</code></pre>
+					<p><a href="../examples/002-font-size.html" target="_blank">002-font-size.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Defining colors</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;color: orange;&quot;&gt;This is orange!&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(255, 165, 0);&quot;&gt;And this is also orange!&lt;/p&gt;
+
+&lt;p style=&quot;color: #FFA500;&quot;&gt;And again orange!&lt;/p&gt;
+					</code></pre>
+					<p><a href="../examples/001-color.html" target="_blank">001-color.html</a></p>
+
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<p>Colors can be defined as</p>
+						<ul>
+							<li>Named colors (<a href="../examples/named-colors.htm" target="_blank">list</a>)</li>
+							<li>RGB colors: e.g. <code>rgb(255, 165, 0)</code></li>
+							<li>HEX colors: e.g. <code>#FFA500</code></li>
+						</ul>
+						<p><a href="../examples/more-colors.htm" target="_blank">A list of colors</a></p>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>font-family</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;font-family: arial;&quot;&gt;Arial (sans-serif)&lt;/p&gt;
+
+&lt;p style=&quot;font-family: times new roman;&quot;&gt;Times New Roman (serif)&lt;/p&gt;
+
+&lt;p style=&quot;font-family: courier new;&quot;&gt;Courier New (monospace)&lt;/p&gt;						
+					</code></pre>
+					<p><a href="../examples/003-font-family.html" target="_blank">003-font-family.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>What fonts can I use?</h2>
+
+					<p style="font-family: sans-serif;">Sans-Serif fonts</p>
+					<p>
+						<span style="font-family: Arial;">Arial</span>, 
+						<span style="font-family: Arial Black;">Arial Black</span>, 
+						<span style="font-family: Tahoma;">Tahoma</span>, 
+						<span style="font-family: Trebuchet MS;">Trebuchet MS</span>, 
+						<span style="font-family: Verdana;">Verdana</span> 
+					</p>
+					<p>&nbsp;</p>
+
+					<p style="font-family: serif;">Serif fonts</p>
+					<p>
+						<span style="font-family: Georgia;">Georgia</span>, 
+						<span style="font-family: Times;">Times</span>, 
+						<span style="font-family: Times New Roman;">Times New Roman</span> 
+					</p>
+					<p>&nbsp;</p>
+
+					<p style="font-family: monospace;">Monospace fonts</p>
+					<p>
+						<span style="font-family: Courier;">Courier</span>, 
+						<span style="font-family: Courier New;">Courier New</span>
+					</p>
+				</section>
+
+
+				<section>
+					<h2>Fallback fonts</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;font-family: tahoma, arial, sans-serif;&quot;&gt;Some text&lt;/p&gt;						
+					</code></pre>
+					<p>The browser first tries Tahoma, then Arial and finally takes a default sans-serif font.</p>
+				</section>
+
+
+				<section>
+					<h2>font-weight</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;font-weight: normal;&quot;&gt;font-weight: normal&lt;/p&gt;
+
+&lt;p style=&quot;font-weight: bold;&quot;&gt;font-weight: bold&lt;/p&gt;					
+					</code></pre>
+					<p><a href="../examples/004-font-weight.html" target="_blank">004-font-weight.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>font-style</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;font-style: normal;&quot;&gt;font-style: normal&lt;/p&gt;
+
+&lt;p style=&quot;font-style: italic;&quot;&gt;font-style: italic&lt;/p&gt;					
+					</code></pre>
+					<p><a href="../examples/005-font-style.html" target="_blank">005-font-style.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>text-decoration</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;text-decoration: none;&quot;&gt;text-decoration: none&lt;/p&gt;
+
+&lt;p style=&quot;text-decoration: underline;&quot;&gt;text-decoration: underline&lt;/p&gt;		
+
+&lt;p style=&quot;text-decoration: overline;&quot;&gt;text-decoration: overline&lt;/p&gt;
+
+&lt;p style=&quot;text-decoration: line-through;&quot;&gt;text-decoration: line-through&lt;/p&gt;
+					</code></pre>
+					<p><a href="../examples/006-text-decoration.html" target="_blank">006-text-decoration.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>text-transform</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;text-transform: none;&quot;&gt;text-transform: none&lt;/p&gt;
+
+&lt;p style=&quot;text-transform: capitalize;&quot;&gt;text-transform: capitalize&lt;/p&gt;
+
+&lt;p style=&quot;text-transform: uppercase;&quot;&gt;text-transform: uppercase&lt;/p&gt;
+
+&lt;p style=&quot;text-transform: lowercase;&quot;&gt;text-transform: lowercase&lt;/p&gt;
+					</code></pre>
+					<p><a href="../examples/007-text-transform.html" target="_blank">007-text-transform.html</a></p>
+				</section>
+
+
+
+
 			</div>
 
 		</div>
