@@ -572,6 +572,121 @@ h2 {
 				</section>
 
 
+				<section>
+					<h2>Links</h2>
+
+					<pre><code data-trim class="html">
+a:link, a:visited {
+	color: green;
+	text-decoration: none;
+	border-bottom: 1px dashed green;
+}
+
+a:hover, a:active {
+	border-bottom: none;
+	background-color: bisque;
+}
+					</code></pre>
+
+					<pre><code data-trim class="html">
+This is a &lt;a href=&quot;http://www.google.com&quot;&gt;link&lt;/a&gt;!
+					</code></pre>
+
+					<p><a href="../examples/015-link.html" target="_blank">015-link.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Span</h2>
+
+					<pre><code data-trim class="html">
+.abbreviation {
+	border-bottom: 1px dotted black;
+}
+
+.highlight {
+	font-weight: bold;
+	color: green;
+}
+					</code></pre>
+
+					<pre><code data-trim class="html">
+&lt;p&gt;
+	&lt;span class=&quot;abbreviation&quot;&gt;HTML&lt;/span&gt; is the abbreviation for 
+	&lt;span class=&quot;highlight&quot;&gt;Hypertext Markup Language&lt;/span&gt;, and
+	&lt;span class=&quot;abbreviation&quot;&gt;CSS&lt;/span&gt; stands for 
+	&lt;span class=&quot;highlight&quot;&gt;Cascaded Style Sheets&lt;/span&gt;.
+&lt;/p&gt;
+					</code></pre>
+
+					<p><a href="../examples/016-span.html" target="_blank">016-span.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Div</h2>
+
+					<pre><code data-trim class="html">
+.post {
+	margin-top: 40px;
+	background-color: #FAF0E6;
+	padding: 2px 25px;
+	border: 1px dashed #FFA07A;
+}
+					</code></pre>
+
+					<pre><code data-trim class="html">
+&lt;div class=&quot;post&quot;&gt;
+	&lt;h2&gt;Battle Over &quot;GIF&quot; Pronunciation Erupts&lt;/h2&gt;
+	
+	&lt;p class=&quot;author&quot;&gt;By AMY O'LEARY&lt;/p&gt;
+	...
+&lt;/div&gt;
+					</code></pre>
+
+					<p><a href="../examples/017-div.html" target="_blank">017-div.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Nested selectors</h2>
+
+					<pre><code data-trim class="html">
+.content p {
+	color: #36648B;
+	padding: 2px 10px;
+}
+
+.content a:link, .content a:visited {
+	text-decoration: none;
+	color: #3D9140;
+}
+
+.content a:hover, .content a:active {
+	text-decoration: underline;
+}
+					</code></pre>
+
+					<pre><code data-trim class="html">
+&lt;div class=&quot;content&quot;&gt;
+	&lt;p&gt;And this is some text in the content area!&lt;/p&gt;
+	&lt;p&gt;And there are also &lt;a href=&quot;#&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;#&quot;&gt;links&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+					</code></pre>
+
+					<p><a href="../examples/018-nested-selectors.html" target="_blank">018-nested-selectors.html</a></p>
+				</section>
+				</section>
+
+
+				<section>
+					<h2>Exercise 4</h2>
+
+					<p>Follow the instructions in the folder <a href="../exercises/exc-04" target="_blank">exercises/exc-04</a> (instructions.html).
+					</p>
+				</section>
+
+
 
 
 

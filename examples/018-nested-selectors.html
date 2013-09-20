@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Selectors</title>
+		
+		<style>
+			.header {
+				background-color: #D8F0D8;
+				padding: 2px 10px;
+			}
+			
+			.header p {
+				color: #8B3626;
+			}
+			
+			.header a:link, .header a:visited {
+				text-decoration: none;
+				color: #8B7D7B;
+			}
+			
+			.header a:hover, .header a:active {
+				text-decoration: underline;
+			}
+			
+			.content {
+				background-color: #C8F0E3;
+			}
+			
+			.content p {
+				color: #36648B;
+				padding: 2px 10px;
+			}
+			
+			.content a:link, .content a:visited {
+				text-decoration: none;
+				color: #3D9140;
+			}
+			
+			.content a:hover, .content a:active {
+				text-decoration: underline;
+			}
+		
+		</style>
+	</head>
+		
+		
+	</head>
+
+	<body>
+		<div class="header">
+			<p>Navigation:
+				<a href="#">Home</a> |
+				<a href="#">About us</a> |
+				<a href="#">Contact</a>
+			</p>
+		</div>
+	
+		<div class="content">
+			<p>And this is some text in the content area!</p>
+			<p>And there are also <a href="#">some</a> <a href="#">links</a>!</p>
+		</div>
+	</body>
+</html>
