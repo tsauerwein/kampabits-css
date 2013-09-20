@@ -384,6 +384,195 @@
 				</section>
 
 
+				<section>
+					<h2>And again repetition</h2>
+
+					<p>In <a href="../examples/010-external-file/post-1.html" target="_blank">post-1.html</a>:</p>
+					<pre><code data-trim class="html">
+&lt;style&gt;		
+	body {
+		font-family: arial; 
+	}
+	
+	h2 {
+		color: #DAA520;
+	}
+	...
+					</code></pre>
+
+					<p>&nbsp;</p>
+					<p>And in <a href="../examples/010-external-file/post-2.html" target="_blank">post-2.html</a>:</p>
+					<pre><code data-trim class="html">
+&lt;style&gt;		
+	body {
+		font-family: arial; 
+	}
+	
+	h2 {
+		color: #DAA520;
+	}
+	...
+					</code></pre>
+				</section>
+
+
+				<section>
+					<h2>External CSS files</h2>
+
+					<pre><code data-trim class="html">
+body {
+	font-family: arial; 
+}
+
+h2 {
+	color: #DAA520;
+}
+
+.author {
+	color: #808080;
+	font-size: 11px;
+}
+
+.description {
+	font-size: 15px;
+}
+					</code></pre>
+					<p><a href="../examples/010-external-file/style.css" target="_blank">style.css</a></p>
+				</section>
+
+
+				<section>
+					<h2>Linking to a CSS file</h2>
+
+					<pre><code data-trim class="html">
+&lt;head&gt;
+	...
+	
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+					</code></pre>
+					<p><a href="../examples/010-external-file/post-1-new.htm" target="_blank">post-1-new.htm</a> and <a href="../examples/010-external-file/post-2-new.htm" target="_blank">post-2-new.htm</a></p>
+				</section>
+
+
+				<section>
+					<h2>Border</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;border: 1px solid black;&quot;&gt;border: 1px solid black&lt;/p&gt;
+					</code></pre>
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<pre><code data-trim class="html">
+&lt;p style=&quot;border-left: 1px solid black;&quot;&gt;border-left: 1px solid black&lt;/p&gt;
+&lt;p style=&quot;border-right: 1px solid black;&quot;&gt;border-right: 1px solid black&lt;/p&gt;
+&lt;p style=&quot;border-top: 1px solid black;&quot;&gt;border-top: 1px solid black&lt;/p&gt;
+&lt;p style=&quot;border-bottom: 1px solid black;&quot;&gt;border-bottom: 1px solid black&lt;/p&gt;
+						</code></pre>
+
+						<p><a href="../examples/011-border.html" target="_blank">011-border.html</a></p>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>Border Styles</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;border: 1px solid black;&quot;&gt;solid&lt;/p&gt;
+&lt;p style=&quot;border: 1px dotted black;&quot;&gt;dotted&lt;/p&gt;
+&lt;p style=&quot;border: 1px dashed black;&quot;&gt;dashed&lt;/p&gt;
+&lt;p style=&quot;border: 1px double black;&quot;&gt;double&lt;/p&gt;
+&lt;p style=&quot;border: 1px groove black;&quot;&gt;groove&lt;/p&gt;
+&lt;p style=&quot;border: 1px ridge black;&quot;&gt;ridge&lt;/p&gt;
+&lt;p style=&quot;border: 1px inset black;&quot;&gt;inset&lt;/p&gt;
+&lt;p style=&quot;border: 1px outset black;&quot;&gt;outset&lt;/p&gt;
+					</code></pre>
+
+					<p><a href="../examples/011-border.html" target="_blank">011-border.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Padding</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;padding: 10px;&quot;&gt;padding: 10px&lt;/p&gt;
+					</code></pre>
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<pre><code data-trim class="html">
+&lt;p style=&quot;padding-left: 10px;&quot;&gt;padding-left: 10px&lt;/p&gt;
+&lt;p style=&quot;padding-right: 10px;&quot;&gt;padding-right: 10px&lt;/p&gt;
+&lt;p style=&quot;padding-top: 10px;&quot;&gt;padding-top: 10px&lt;/p&gt;
+&lt;p style=&quot;padding-bottom: 10px;&quot;&gt;padding-bottom: 10px&lt;/p&gt;
+						</code></pre>
+
+
+						<div class="fragment">
+							<p>&nbsp;</p>
+							<p>Short form</p>
+							<pre><code data-trim class="html">
+&lt;p style=&quot;padding: 10px 5px;&quot;&gt;padding: 10px 5px (10px for top/bottom, 5px for right/left)&lt;/p&gt;
+&lt;p style=&quot;padding: 10px 5px 2px 1px;&quot;&gt;padding: 10px 5px 2px 1px (padding for top, right, bottom and left)&lt;/p&gt;
+</code></pre>
+
+							<p><a href="../examples/012-padding.html" target="_blank">012-padding.html</a></p>
+						</div>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>Margin</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;margin: 10px;&quot;&gt;margin: 10px&lt;/p&gt;
+					</code></pre>
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<pre><code data-trim class="html">
+&lt;p style=&quot;margin-left: 10px;&quot;&gt;margin-left: 10px&lt;/p&gt;
+&lt;p style=&quot;margin-right: 10px;&quot;&gt;margin-right: 10px&lt;/p&gt;
+&lt;p style=&quot;margin-top: 10px;&quot;&gt;margin-top: 10px&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 10px;&quot;&gt;margin-bottom: 10px&lt;/p&gt;
+						</code></pre>
+
+
+						<div class="fragment">
+							<p>&nbsp;</p>
+							<p>Short form</p>
+							<pre><code data-trim class="html">
+&lt;p style=&quot;margin: 10px 5px;&quot;&gt;margin: 10px 5px (10px for top/bottom, 5px for right/left)&lt;/p&gt;
+&lt;p style=&quot;margin: 10px 5px 2px 1px;&quot;&gt;margin: 10px 5px 2px 1px (margin for top, right, bottom and left)&lt;/p&gt;
+</code></pre>
+
+							<p><a href="../examples/013-margin.html" target="_blank">013-margin.html</a></p>
+						</div>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>Background-Color</h2>
+
+					<pre><code data-trim class="html">
+&lt;p style=&quot;background-color: #F0E68C;&quot;&gt;background-color: #F0E68C&lt;/p&gt;
+					</code></pre>
+
+					<p><a href="../examples/014-background-color.html" target="_blank">014-background-color.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Exercise 3</h2>
+
+					<p>Follow the instructions in the folder <a href="../exercises/exc-03" target="_blank">exercises/exc-03</a> (instructions.html).
+					</p>
+				</section>
+
+
+
 
 
 			</div>
