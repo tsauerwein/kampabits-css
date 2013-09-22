@@ -1,0 +1,6 @@
+Body Background: #EAF8F9 (light-green)
+Paragraph text color: #094744 (dark-green)
+Heading: #237D7D (green)
+Note box background color: #B7E1E0 (green)
+Note box border color: #EAF8F9 (light-green)
+Note box heading: #8B5A2B (brown)

@@ -1,0 +1,37 @@
+body {
+	font-family: verdana, arial, sans-serif;
+	background-color: #E0E4CC;
+}
+
+h1 {
+	font-size: 130%;
+	color: #E47911;
+	border-bottom: 1px solid #E47911;
+	padding-bottom: 2px;
+}
+
+h2 {
+	font-size: 105%;
+	color: #E47911;
+}
+
+img {
+	border: 1px dashed #FA6900;
+}
+
+td {
+	padding: 25px;
+}
+
+a:link, a:visited {
+	color: #8B5A2B;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+p {
+	color: #2B2B2B;
+}

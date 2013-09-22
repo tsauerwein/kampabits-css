@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Styles</title>
+
+		<style>
+			body {
+				background-color: #FCBB90;
+				font-family: arial;
+			}
+
+			h1 {
+				color: #FA3812;
+				margin-bottom: 0px;
+			}
+
+			.date {
+				text-transform: uppercase;
+				color: #BE834F;
+				font-size: 90%;
+				margin-top: 5px;
+			}
+
+			.introduction {
+				font-style: italic;
+
+				margin-left: 30px;
+				border-left: 3px solid #FC100A;
+				padding-left: 5px;
+			}
+
+			a:link, a:visited {
+				color: #FC6A0A;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a:hover, a:active {
+				text-decoration: overline;
+			}
+
+
+			.definition {
+				border-bottom: 1px dotted black;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>Some heading</h1>
+
+		<p class="date">May 23, 9:27 am 96</p>
+		
+		<p class="introduction">This is some introduction text! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed hendrerit purus. Cras non leo felis. Pellentesque elementum blandit tempus. Curabitur varius dui eget risus rutrum euismod. Duis eu odio dui. Aliquam convallis ultricies felis, vel feugiat sapien tempor vitae.</p>
+
+		<p>Nam id sapien massa, sed euismod massa. Morbi dapibus eros non tellus aliquam eleifend. Maecenas tortor nunc, tempor sit amet tempus et, semper a ante. Donec leo est, bibendum ac hendrerit sit amet, posuere sed ante. Duis adipiscing sagittis tortor sed aliquam. Sed gravida rhoncus adipiscing. Phasellus nisi mauris, tempus eu placerat id, tempor egestas ante. Suspendisse faucibus ante nec nulla ultricies imperdiet. Praesent eu metus eros. Morbi sed diam vel ligula pellentesque lobortis sit amet non nibh. Phasellus sagittis elit eu lorem fermentum scelerisque.</p>
+
+		<p>Nam id sapien massa, sed euismod <a href="#">massa</a>. Morbi dapibus eros non tellus aliquam eleifend. Maecenas tortor nunc, tempor sit amet tempus et, semper a ante. Donec leo est, bibendum ac hendrerit sit amet, posuere sed <a href="#">ante</a>. Duis adipiscing sagittis <span class="definition">tortor</span> sed aliquam. Sed gravida rhoncus adipiscing. Phasellus nisi mauris, tempus eu placerat id, tempor egestas ante. Suspendisse faucibus ante nec nulla ultricies imperdiet. Praesent eu metus eros. Morbi sed diam vel ligula pellentesque lobortis sit amet non nibh. Phasellus sagittis elit eu lorem fermentum <span class="definition">scelerisque</span>.</p>
+	</body>
+
+</html>

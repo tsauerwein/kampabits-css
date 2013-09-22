@@ -1,0 +1,5 @@
+Body Background: #FCBB90 (orange-red)
+Heading: #FA3812 (orange)
+Date: #BE834F (light-brown)
+Left border introduction: #FC100A (orange)
+Links: #FC6A0A (orange)
