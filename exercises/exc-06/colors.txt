@@ -1,0 +1,7 @@
+Text color: #555555 (gray)
+Text color: #8C8C8C (light gray)
+Table head background: #404853 (dark gray)
+Table head text: white
+Background even rows: #E8EAE9 (light-gray)
+Text "In Stock": #00B515 (green)
+Text "Out Of Stock": #B50000 (red)

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shopping Cart</title>
+		
+		<style>
+			body {
+				font-family: arial;
+				font-size: 12px;
+			}
+		
+			td {
+				font-size: 14px;
+				padding: 8px;
+				color: #555555;
+			}
+		
+			.table-head {
+				background-color: #404853;
+				color: white;
+			}
+			
+			.qty-head {
+				text-align: center;
+			}
+			
+			.price-head {
+				text-align: center;
+			}
+			
+			.even {
+				background-color: #E8EAE9;
+			}
+			
+			.info {
+				color: #8C8C8C;
+				font-size: 12px;
+			}
+			
+			.stock {
+				text-align: center;
+			}
+			
+			.in {
+				color: #00B515;
+			}
+			
+			.out {
+				color: #B50000;
+			}
+			
+			.qty {
+				text-align: center;
+			}
+			
+			.price {
+				text-align: right;
+			}
+			
+			.subtotal-tax-label {
+				text-align: right;
+				font-size: 12px;
+			}
+			
+			.subtotal-tax {
+				text-align: right;
+				font-size: 12px;
+			}
+			
+			.total {
+				font-weight: bold;
+				text-align: right;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Shopping Cart</h1>
+
+		<table>
+			<tr>
+				<td class="table-head" colspan="2">Items</td>
+				<td class="table-head qty-head">Qty</th>
+				<td class="table-head price-head">Price</td>
+			</tr>
+			<tr>
+				<td>Envisioning Information <br> <span class="info">By Edward R. Tufte - Hardcover</span></td>
+				<td class="stock in">In Stock</td>
+				<td class="qty">1</td>
+				<td class="price">$33.32</td>
+			</tr>
+			<tr class="even">
+				<td>Outliers <br> <span class="info">By Malcolm Gladwell - Hardcover</span></td>
+				<td class="stock in">In Stock</td>
+				<td class="qty">2</td>
+				<td class="price">$33.58 <br> <span class="info">($16.79 x 2)</span></td>
+			</tr>
+			<tr>
+				<td>Don't Make Me Think <br> <span class="info">By Steve Krug - Paperback</span></td>
+				<td class="stock out">Out of Stock</td>
+				<td class="qty">1</td>
+				<td class="price">$22.80</td>
+			</tr>
+			<tr class="even">
+				<td>Steve Jobs <br> <span class="info">By Walter Isaacson - Hardcover</span></td>
+				<td class="stock in">In Stock</td>
+				<td class="qty">1</td>
+				<td class="price">$17.49</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="subtotal-tax-label">Subtotal <br> Tax</td>
+				<td class="subtotal-tax">$107.19 <br> $10.71</td>
+			</tr>
+			<tr class="even">
+				<td colspan="3" class="total">Total</td>
+				<td class="total">$117.90</td>
+			</tr>
+		</table>
+
+	</body>
+</html>	
