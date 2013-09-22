@@ -1,0 +1,6 @@
+Headings: #567717
+Header div background color: #BAB798
+Header div border color: #8A9144
+Navigation text and link color: #789937
+Content div background color: #DCFF5F
+Content div border color: #8A9144

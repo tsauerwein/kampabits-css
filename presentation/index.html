@@ -801,6 +801,106 @@ td {
 				</section>
 
 
+				<section>
+					<h2>background-image</h2>
+
+					<pre><code data-trim class="html">
+.box {
+	background-image: url(images/warning.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+					</code></pre>
+
+					<pre><code data-trim class="html">
+&lt;div class=&quot;box&quot;&gt;
+	...
+&lt;/div&gt;
+					</code></pre>
+
+					<p><a href="../examples/024-background-image.html" target="_blank">024-background-image.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>background-image pattern</h2>
+
+					<pre><code data-trim class="html">
+body {
+	background-image: url(images/flowers.png);
+	background-repeat: repeat;
+	background-position: top left;
+}
+					</code></pre>
+
+					<p><a href="../examples/025-background-image-pattern.html" target="_blank">025-background-image-pattern.html</a></p>
+
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<p>background-image: url(my-image.jpg)</p>
+						<p>background-repeat: repeat/repeat-x/repeat-y/no-repeat</p>
+						<p>background-position: top, center, bottom, left, right or a combination like: top right</p>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>id selectors</h2>
+
+					<pre><code data-trim class="html">
+#header {
+	background-color: #D8F0D8;
+	padding: 2px 10px;
+}
+					</code></pre>
+
+					<pre><code data-trim class="html">
+&lt;div id=&quot;header&quot;&gt;
+	...
+&lt;/div&gt;
+					</code></pre>
+
+					<p><a href="../examples/026-id-selectors.html" target="_blank">026-id-selectors.html</a></p>
+				</section>
+
+
+				<section>
+					<h2>Different selectors</h2>
+
+					<p>element selector</p>
+					<pre><code data-trim class="html">
+p { ... }
+					</code></pre>
+					<p>&nbsp;</p>
+
+					<p>class selector</p>
+					<pre><code data-trim class="html">
+.post { ... }
+
+&lt;div class=&quot;post&quot;&gt; ... &lt;/div&gt;
+					</code></pre>
+					<p><small>for several elements with the same style</small></p>
+					<p>&nbsp;</p>
+
+					<p>id selector</p>
+					<pre><code data-trim class="html">
+#post { ... }
+
+&lt;div id=&quot;header&quot;&gt; ... &lt;/div&gt;
+					</code></pre>
+					<p><small>for unique elements (like header, navigation, content, footer)</small></p>
+					<p>&nbsp;</p>
+				</section>
+
+
+				<section>
+					<h2>Exercise 7</h2>
+
+					<p>Follow the instructions in the folder <a href="../exercises/exc-07" target="_blank">exercises/exc-07</a> (instructions.html).
+					</p>
+				</section>
+
+
 
 
 			</div>
