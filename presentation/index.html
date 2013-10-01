@@ -901,6 +901,108 @@ p { ... }
 				</section>
 
 
+				<section>
+					<h2>Positioning boxes: 2-column layout</h2>
+
+					<pre><code data-trim class="html">
+#navigation {
+	width: 200px;
+	float: right;
+}
+
+#content {
+	margin-right: 230px;
+}
+
+#footer {
+	clear: both;
+}
+					</code></pre>
+
+					<p><a href="../examples/027-float-1.html" target="_blank">027-float-1.html</a> and 
+					<a href="../examples/027-style.css" target="_blank">027-style.css</a></p>
+				</section>
+
+
+				<section>
+					<h2>Positioning boxes: 3-column layout</h2>
+
+					<pre><code data-trim class="html">
+#navigation {
+	width: 200px;
+	float: left;
+}
+
+#sidebar {
+	width: 200px;
+	float: right;
+}
+
+#content {
+	margin-right: 230px;
+	margin-left: 230px;
+}
+
+#footer {
+	clear: both;
+}
+					</code></pre>
+
+					<p><a href="../examples/028-float-2.html" target="_blank">028-float-2.html</a> and 
+					<a href="../examples/028-style.css" target="_blank">028-style.css</a></p>
+				</section>
+
+
+				<section>
+					<h2>Positioning boxes: 2-column layout with fixed width</h2>
+
+					<pre><code data-trim class="html">
+#allcontent {
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navigation {
+	width: 200px;
+	float: right;
+}
+
+#content {
+	margin-right: 230px;
+}
+
+#footer {
+	clear: both;
+}
+					</code></pre>
+
+					<p><a href="../examples/029-float-fixed.html" target="_blank">029-float-fixed.html</a> and 
+					<a href="../examples/029-style.css" target="_blank">029-style.css</a></p>
+				</section>
+
+
+				<section>
+					<h2>Absolute positioning</h2>
+
+					<pre><code data-trim class="html">
+#navigation {
+	position:relative;
+}
+
+#book {
+	position: absolute;
+	top: -16px;
+	right: -16px;
+	z-index: 99;
+}
+					</code></pre>
+
+					<p><a href="../examples/030-position-absolute.html" target="_blank">030-position-absolute.html</a> and 
+					<a href="../examples/030-style.css" target="_blank">030-style.css</a></p>
+				</section>
+
+
 
 
 			</div>
