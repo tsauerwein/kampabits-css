@@ -1,0 +1,81 @@
+body {
+	font-family: arial;
+	color: #424849;
+	font-size: 12px;
+}
+
+#header {
+	background-color:#05619b;	
+	background-image: url(images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: bottom 5px left 5px;
+	height: 120px;
+	position: relative;
+}
+
+#header h1 {
+	color: white;
+	padding: 5px;
+	background-color: #267CB2;
+	width: 500px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#navigation {
+	background-color: #F3F5F6;
+	
+	width: 180px;
+	float: left;
+}
+
+#navigation h2, #houses h2 {
+	background-color: #385870;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 110%;
+	padding: 5px;
+}
+
+#navigation p {
+	padding: 0px 15px 15px 15px;
+}
+
+#content {
+	margin-left: 200px;
+}
+
+#content p {
+	font-size: 130%;
+}
+
+#footer {
+	background-color: #F2EFEF;
+	padding: 1px 10px;
+	
+	clear: both;
+}
+
+.title-house-img {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.offer {
+	background-color: #F3F5F6;
+	padding: 5px;
+	margin: 5px;
+	width: 300px;
+	font-size: 80%;
+	
+	float: left;
+}
+
+.offer .house-img {
+	float: left;
+	margin-right: 5px;
+}
