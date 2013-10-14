@@ -1,0 +1,18 @@
+Background: #f4f5f5
+Border color: #AEB0AF
+
+Navigation link color: #7A7A7A
+Navigation link hover color: #92A901
+
+Flashnews title text: #647505
+
+Highlighted article text: #f2f7e7
+Highlighted article heading: #92A901
+Highlighted article subtitle: #758544
+Article heading: #92A901
+
+Blue box background: #E6EEF0
+Blue box heading: #33A3B7
+
+Links: #92A901
+Links hover: #7D7D7D

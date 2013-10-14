@@ -1,0 +1,163 @@
+body {
+	background-color: #f4f5f5;
+	color: #7D7D7D;
+	font-family: arial;
+	font-size: 90%;
+	margin: 0px;
+}
+
+#allcontents {
+	background-color: white;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	border-bottom: 1px dashed #AEB0AF;
+	height: 80px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#nav {
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: block;
+	padding: 3px 10px;
+	
+	text-decoration: none;
+	color: #7A7A7A;
+}
+
+
+#nav li a:hover, #nav li a:active {
+	color: #92A901;
+}
+
+
+#flashnews {
+	clear: both;
+	border-top: 1px dashed #AEB0AF;
+	border-bottom: 1px dashed #AEB0AF;
+	
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#flashnews .title {
+	color: #647505;
+	font-weight: bold;
+}
+
+#content {
+	margin-right: 260px;
+	border-right: 1px dashed #AEB0AF;
+	
+	padding: 10px;
+}
+
+#column {
+	width: 240px;
+	float: right;
+	
+	padding: 10px;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px dashed #AEB0AF;
+	padding: 10px;
+	text-align: center;
+}
+
+#highlighted-article {
+	background-color: #f2f7e7;
+	padding: 10px;
+	background-image: url(images/pin.png);
+	background-repeat: no-repeat;
+	background-position: top 5px right 5px;
+}
+
+
+#highlighted-article  h1 {
+	color: #92A901;
+	font-size: 110%;
+	margin: 0px;
+}
+
+
+#highlighted-article  .sub-title {
+	color: #758544;
+	font-weight: bold;
+}
+
+.centered-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article {
+	padding: 5px;
+	width: 45%;
+	float: left;
+}
+
+.article  h2 {
+	font-size: 105%;
+	color: #92A901;
+}
+
+
+.article  p {
+	font-size: 90%;
+}
+
+.clear {
+	clear: both;
+}
+
+#categories {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#categories  img {
+	margin: 10px;
+}
+
+#capoeira {
+	background-color: #E6EEF0;
+	padding: 10px;
+	padding-top: 18px;
+	background-image: url(images/hand.png);
+	background-repeat: no-repeat;
+	background-position: top 5px right 5px;
+}
+
+#capoeira h2 {
+	font-size: 105%;
+	color: #33A3B7;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #92A901;
+}
+
+
+a:hover, a:active {
+	color: #7D7D7D;
+}
