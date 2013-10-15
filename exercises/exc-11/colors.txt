@@ -1,0 +1,12 @@
+Background color: #2765AF
+Text color: #000000
+
+Logo border color (under the logo): #DADADA
+Logo heading color: #225799
+
+Navigation link color: #225799
+Navigation link hover color: #000000
+
+News box background color: #FEFFD5
+News box border color: #FFEB70
+News box heading color: #225799

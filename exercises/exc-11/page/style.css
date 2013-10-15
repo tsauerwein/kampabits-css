@@ -1,0 +1,17 @@
+body {
+	color:#000000;
+	background-image: url('images/body_bg.jpg');
+	background-repeat: repeat-x;
+	
+	color: black;
+	font-family: arial;
+	font-size: 90%;
+	margin: 20px;
+}
+
+#allcontents {
+	background-color: white;
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+}
